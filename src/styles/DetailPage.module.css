@@ -1,0 +1,87 @@
+.container {
+  width: 100%;
+}
+
+.main {
+  margin: 0 auto;
+  width: 90vw;
+}
+
+.back_btn {
+  float: left;
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 10%;
+}
+
+.image {
+  width: 400px;
+  text-align: center;
+}
+
+.image img {
+  border-radius: 5%;
+}
+
+.image_placeholder {
+  background-color:#62727b;
+  height: 450px;
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 5%;
+}
+
+.info {
+  padding: 1em;
+}
+
+.info p {
+  white-space: pre-line
+}
+
+.movie_title {
+  margin: 0px 1em 5px 0px;
+}
+
+.votes {
+  margin: 0.5em 0px 1em 0px;
+}
+
+.votes b {
+  font-size: large;
+}
+
+.movie_genres ul {
+  margin-top: 5px;
+  list-style: none;
+  padding: 0px;
+}
+
+.movie_genre {
+  display: inline;
+  color: black;
+  background-color: white;
+  padding: 0.3em;
+  margin: 0.5em;
+  border-radius: 10%;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.links a {
+  color: white;
+}
+
+.quote {
+  font-size: large;
+}
